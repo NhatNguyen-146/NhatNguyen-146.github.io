@@ -59,17 +59,6 @@ article > form > input {
     margin: 10px 0;    
 }
 
-article > form > textarea#message {
-    flex: 1 1 100%;
-    width: 100%;
-    height: auto;
-    background-color: var(--primary-color-light);
-    color: var(--primary-color);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0;    
-}
-
 article > form > button {
     text-align: center;
     font-size: var(--font-text-regular);
