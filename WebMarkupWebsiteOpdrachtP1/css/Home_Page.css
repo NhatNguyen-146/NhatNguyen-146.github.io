@@ -21,6 +21,7 @@
     font-family: var(--font-family-raleway);
     font-size: var(--font-text-regular);
     text-align: center;
+    text-transform: lowercase;
 }
 
 #Hero_Website {
