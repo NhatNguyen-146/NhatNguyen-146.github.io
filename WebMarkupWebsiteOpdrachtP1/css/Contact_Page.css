@@ -57,7 +57,7 @@ article > form > table > tr > td > input {
     margin: 10px 0;    
 }
 
-article > form > table > tr > td > textarea#message {
+article form textarea#message {
     flex: 1 1 100%;
     width: 100%;
     height: auto;
