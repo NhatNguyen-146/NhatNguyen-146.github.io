@@ -28,6 +28,7 @@ article {
 article > p {
     font-family: var(--font-family-raleway);
     font-size: var(--font-text-regular);
+    color: var(--primary-color-dark);
     text-indent: 35%;
     padding: 1rem;
 
@@ -86,15 +87,13 @@ article > form > tr > td > label#submit {
     width: 100%;
 }
 
-
-fieldset {
+article > form > fieldset {
     border-color: var(--primary-color-dark);
     border-width: 0.25rem;
     border: double;
- 
 }
 
-legend {
+article > form > legend {
    font-family: var( --font-family-poppins);
    font-size: var(--font-heading2-Desk);
 }
