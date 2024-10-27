@@ -53,7 +53,7 @@ article > form > select,
 article > form > input {
     flex: 1 1 45%;
     background-color: var(--primary-color-light);
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
     padding: 10px;
     border-radius: 10px;
     margin: 10px 0;    
@@ -64,7 +64,7 @@ article > form > textarea#message {
     width: 100%;
     height: auto;
     background-color: var(--primary-color-light);
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
     padding: 10px;
     border-radius: 10px;
     margin: 10px 0;    
