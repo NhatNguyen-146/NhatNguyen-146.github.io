@@ -42,14 +42,14 @@ article > form {
     padding: 1rem;
 }
 
-article > form  > table > tr > td > label {
+article form  label {
     flex: 1 1 45%;
     margin: 10px 0;
     font-size: var(--font-text-regular);
 }
 
-article > form > table > tr > td > select,
-article > form > table > tr > td > input {
+article form select,
+article form input {
     flex: 1 1 45%;
     color: var(--primary-color-dark);
     padding: 10px;
@@ -94,11 +94,11 @@ article > form > legend {
    font-size: var(--font-heading2-Desk);
 }
 
-article > form > table > tr:nth-child(odd) {
+article form tr:nth-child(odd) {
     background-color: #FFF;
 }
 
-article > form > table > tr:nth-child(even) {
+article form table tr:nth-child(even) {
     background-color: #CFF;
 }
 
