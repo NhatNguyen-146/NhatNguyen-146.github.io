@@ -11,6 +11,12 @@
     overflow: hidden;
 }
 
+#Hero_Place > figure {
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-text-regular);
+    text-align: center;
+}
+
 #Hero_Place > figure > figcaption {
     font-family: var(--font-family-raleway);
     font-size: var(--font-text-regular);
