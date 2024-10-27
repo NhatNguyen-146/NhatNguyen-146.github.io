@@ -70,7 +70,7 @@ article > form > textarea#message {
     margin: 10px 0;    
 }
 
-article > form > label#submit {
+article > form > tr > td > label#submit {
     text-align: center;
     font-size: var(--font-text-regular);
     font-family: var(--font-family-raleway);
