@@ -11,6 +11,11 @@
     overflow: hidden;
 }
 
+#Hero_Place > figure > figcaption {
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-text-regular);
+}
+
 
 #Hero_Website {
     width: 100%; 
