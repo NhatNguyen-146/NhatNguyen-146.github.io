@@ -60,7 +60,7 @@ article > form > input {
     margin: 10px 0;    
 }
 
-article > form > textarea#message {
+article > form > table > tr > td > textarea#message {
     flex: 1 1 100%;
     width: 100%;
     height: auto;
@@ -71,7 +71,7 @@ article > form > textarea#message {
     margin: 10px 0;    
 }
 
-article > form > tr > td > label#submit {
+article > form > table > tr > td > label#submit {
     text-align: center;
     font-size: var(--font-text-regular);
     font-family: var(--font-family-raleway);
