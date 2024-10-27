@@ -67,7 +67,7 @@ article > form > table > tr > td > textarea#message {
     margin: 10px 0;    
 }
 
-article > form > fieldset > table > tr > td > input#submit {
+article > form > fieldset > table > tr:last-child > td > input#submit {
     text-align: center;
     font-size: var(--font-text-regular);
     font-family: var(--font-family-raleway);
