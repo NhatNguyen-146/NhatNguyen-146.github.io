@@ -90,5 +90,8 @@ article > form > button:hover {
     background-color: var( --accent-color-2);
 }
 
+legend {
+    background-color: aqua;
+}
 
 
