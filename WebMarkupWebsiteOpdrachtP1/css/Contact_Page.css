@@ -94,7 +94,7 @@ article > form > legend {
    font-size: var(--font-heading2-Desk);
 }
 
-article form tr:nth-child(odd) {
+article form table tr:nth-child(odd) {
     background-color: #FFF;
 }
 
