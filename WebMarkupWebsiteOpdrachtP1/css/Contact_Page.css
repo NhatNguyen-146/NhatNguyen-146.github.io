@@ -93,6 +93,10 @@ article form input#submit {
     width: 30%;
 }
 
+article form input#submit:hover {
+    background-color: var(--accent-color-2);
+}
+
 article > form > fieldset {
     border-color: var(--primary-color-dark);
     border-width: 0.25rem;
