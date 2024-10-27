@@ -91,6 +91,8 @@ article > form > button:hover {
 }
 
 fieldset {
+    border-color: var(--primary-color-dark);
+    border-width: 0.25rem;
  
 }
 
@@ -98,8 +100,7 @@ legend {
    font-family: var( --font-family-poppins);
    font-size: var(--font-heading2-Desk);
    border: double;
-   border-color: var(--primary-color-light);
-   border-width: 0.25rem;
+ 
 }
 
 
