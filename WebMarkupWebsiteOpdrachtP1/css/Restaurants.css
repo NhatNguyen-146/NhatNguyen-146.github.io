@@ -20,7 +20,7 @@
     overflow: hidden;
 }
 
-.section_image > img#img_left {
+.section_image > figure > img#img_left {
     width: 100%;
     height: 80%;
     object-fit: cover;
@@ -28,7 +28,7 @@
     float: left;
 }
 
-.section_image > img#img_right {
+.section_image > figure > img#img_right {
     width: 100%;
     height: 80%;
     object-fit: cover;
