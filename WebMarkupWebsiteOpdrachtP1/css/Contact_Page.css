@@ -44,14 +44,14 @@ article > form {
     flex-wrap: wrap;
 }
 
-article > form > label {
+article > form  > table > tr > td > {
     flex: 1 1 45%;
     margin: 10px 0;
     font-size: var(--font-text-regular);
 }
 
-article > form > select,
-article > form > input {
+article > form > table > tr > td > select,
+article > form > table > tr > td > input {
     flex: 1 1 45%;
     background-color: var(--primary-color-light);
     color: var(--primary-color-dark);
