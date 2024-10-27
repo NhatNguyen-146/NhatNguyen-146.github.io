@@ -90,6 +90,12 @@ article > form > button:hover {
     background-color: var( --accent-color-2);
 }
 
+fieldset {
+    border: double;
+    border-color: var(--primary-color-light);
+    border-width: 0.25rem;
+}
+
 legend {
    font-family: var( --font-family-poppins);
    font-size: var(--font-heading2-Desk);
