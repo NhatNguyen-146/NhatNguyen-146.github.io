@@ -91,7 +91,8 @@ article > form > button:hover {
 }
 
 legend {
-    background-color: aqua;
+   font-family: var( --font-family-poppins);
+   font-size: var(--font-heading2-Desk);
 }
 
 
