@@ -3,5 +3,3 @@ o	Student number: 736623
 o	Student class: HAINF24VT1B
 o	GitHub Repository: your https://github.com/NhatNguyen-146/NhatNguyen-146.github.io
 o	GitHub Pages URL: https://nhatnguyen-146.github.io/WebMarkupWebsiteOpdrachtP1/Home_Page.html
-
-Mijn website staat in het mapje
