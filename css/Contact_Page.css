@@ -13,8 +13,11 @@
 #form_decorImage{
     float: left;
     overflow: hidden;
+    width: 50%;
 }
 
 #form_questionForm{
     float: right;
+    width: 50%;
 }
+
