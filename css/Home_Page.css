@@ -23,6 +23,21 @@
     text-align: center;
 }
 
+.Hero_Text > h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    word-spacing: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.Hero_Text > h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    word-spacing: 0.75rem;
+    letter-spacing: 0.15rem;
+
+}
+
 #Aside_Homepage{
     width: 30%;
     height: auto; 
