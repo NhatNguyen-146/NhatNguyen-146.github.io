@@ -63,17 +63,13 @@ body {
 }
 
 /* logo website */
-.Logo_Website {
-    display: flex;
-    justify-content: flex-start; 
-    width: 10%;
-    padding: 0 5%;
-    height: 80%;
-    object-fit: cover;
+.LogoWebsite {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
 /* navigation */
-
 nav {
     background-color: #00508E;
     height: 60px;
