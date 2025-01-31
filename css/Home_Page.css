@@ -66,6 +66,8 @@
     object-fit: cover;
 }
 
+/* main */
+
 main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -74,17 +76,18 @@ main {
 }
 
 .grid_Container {
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0;
 }
 
 .grid_Container article {
     display: flex;
-    background-color:  #C8C8C8;
+    background-color: #C8C8C8;
     border-radius: 10px;
     overflow: hidden;
+    flex-direction: column;
 }
 
 /* image section */
