@@ -67,19 +67,11 @@
 }
 
 /* main */
-
-main {
+.grid_Container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     padding: 50px;
-}
-
-.grid_Container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    padding: 0; 
 }
 
 .grid_Container article {
