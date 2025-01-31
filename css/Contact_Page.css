@@ -9,3 +9,12 @@
     border-width: 5px;
     border-color: #000000;
 }
+
+#form_decorImage{
+    float: left;
+    overflow: hidden;
+}
+
+#form_questionForm{
+    float: right;
+}
