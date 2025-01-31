@@ -52,18 +52,17 @@
 }
 
 .Aside_Homepage {
-    width: 30%;
+    width: 15%;
     padding: 10px;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .Aside_Homepage img {
-    width: 50%;
+    width: 100%;
     height: auto;
-    margin-bottom: 10px;
     object-fit: cover;
 }
 
