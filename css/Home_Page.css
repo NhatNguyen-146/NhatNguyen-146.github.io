@@ -4,3 +4,17 @@
     padding: 0;
 }
 
+#Hero_Homepage {
+    width: 70%; 
+    height: auto; 
+    display: block; 
+    margin: auto;
+}
+
+#Aside_Homepage{
+    width: 30%;
+    height: auto; 
+    display: block; 
+    margin: auto;
+}
+

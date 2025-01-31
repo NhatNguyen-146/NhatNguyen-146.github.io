@@ -95,8 +95,6 @@ nav > ul > li {
 
 nav > ul > li:hover {
     background-color: #FF9E3E;
-    opacity: 0.8;
-    
 }
 
 nav > ul > li > a {
@@ -169,7 +167,6 @@ footer > ul > li > a {
 }
 
 .redirect_button :hover{
-   opacity: 0.8;
    background-color: #FF9E3E;
 }
 
