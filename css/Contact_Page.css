@@ -4,27 +4,36 @@
     padding: 0;
 }
 
-.form_container{
-   background-color: #C8C8C8;
+.form_container {
+    overflow: hidden;
+    width: 100%;
+    margin: 5%;
+    background-color: aqua;
 }
 
-#form_decorImage{
+#form_decorImage {
     float: left;
-    overflow: hidden;
     width: 45%;
     height: auto;
-    margin: 5%;
+    object-fit: cover;
 }
 
-#form_questionForm{
-    float: right;
-    width: 50%;
+.form_questionForm {
+    float: left;
+    width: 45%;
+    height: 100%;
     border-style: double;
     border-width: 5px;
     border-color: #000000;
-    margin: 5%;
+    padding: 20px;
+    background-color: #C8C8C8;;
 }
 
+.form_content{
+    border-style: double;
+    border-color: #000000;
+    border-width: 5px;
+}
 tr:nth-child(even) {
     background-color: #CFF;
 }
@@ -39,4 +48,43 @@ tr:nth-child(even) > a {
 
 tr:nth-child(odd) > a {
     background-color: #FFF;
+}
+
+article form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+article form table td {
+    padding: 2.5px 5px;
+}
+
+article form label {
+    font-size: 1rem;
+   font-family: "Raleway", sans-serif;
+}
+
+article form select,
+article form input {
+    color:  #000000;
+    padding: 5px;
+    margin: 5px 0;  
+    width: 90%;  
+}
+
+article form textarea#message {
+    width: 90%;
+    height: auto;
+    color:  #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;    
+    font-family: "Raleway", sans-serif;;
+}
+
+h2 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
 }
