@@ -48,7 +48,21 @@
     font-style: italic;
 }
 
+
+/* body */
 body {
     background-color: #FFFFFF;
     position: static;
+}
+
+/* logo website */
+.Logo_Website {
+    display: flex;
+    justify-content: flex-start; 
+    width: 180px;
+    padding: 0 100px;
+}
+
+.Logo_Website img {
+    height: auto;
 }

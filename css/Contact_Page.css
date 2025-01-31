@@ -21,3 +21,10 @@
     width: 50%;
 }
 
+tr:nth-child(even) {
+    background-color: #CFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF;
+}
