@@ -11,6 +11,18 @@
     margin: auto;
 }
 
+#Hero_Homepage > .Hero_Text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #FFFFFF;;
+    font-family: "Poppins", serif;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
 #Aside_Homepage{
     width: 30%;
     height: auto; 
