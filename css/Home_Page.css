@@ -80,6 +80,33 @@ main {
     align-items: center;
 }
 
+.grid_Item article {
+    display: flex;
+    background-color:  #C8C8C8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* image section */
+.grid_Item .image_section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.grid_Item img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+}
+
+/* tects section */
+
+.grid_Item .text_section {
+    flex: 2;
+    text-align: left;
+}
+
+/* figure/caption */
 .grid_Item figure {
     width: 100%;
     text-align: center;
@@ -87,19 +114,6 @@ main {
 
 .grid_Item figcaption {
     font-family: "Raleway", sans-serif;
-}
-
-.grid_Item img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.grid_Item article {
-    display: flex;
-    background-color:  #C8C8C8;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 .grid_Item h5 {
