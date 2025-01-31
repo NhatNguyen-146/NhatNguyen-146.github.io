@@ -80,3 +80,36 @@
     background: transparent;
     color: #000000;
 }
+
+@media (max-width: 768px) {
+    .Content_Container>article {
+        height: auto;
+        margin: 20px 50px;
+        flex-direction: column;
+    }
+
+    img {
+        display: none;
+    }
+
+    .section_image>.img_left,
+    .section_image>.img_right {
+        display: none;
+    }
+
+    .section_text>h3 {
+        font-size: 2rem;
+    }
+
+    .section_text>p {
+        font-size: 0.9rem;
+        margin: 1rem;
+    }
+
+    .section_text>button {
+        width: 50%;
+        margin: 1rem auto;
+        position: relative;
+        bottom: auto;
+    }
+}

@@ -154,3 +154,54 @@
     background: transparent;
     color: #000000;
 }
+
+/* media query ding */
+
+@media (max-width: 768px) {
+
+    img {
+        display: none;
+    }
+
+    #Header_Container {
+        display: none;
+    }
+
+    .grid_Container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .grid_Container article {
+        margin: 20px 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .grid_Container img {
+        height: auto;
+    }
+
+    .grid_Container h5 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+
+    .grid_Container p {
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+
+    .grid_Container button {
+        width: 50%;
+        margin: 1rem auto;
+        position: relative;
+        bottom: auto;
+    }
+
+    .grid_Container figure {
+        display: none;
+    }
+}
