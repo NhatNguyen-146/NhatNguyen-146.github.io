@@ -28,3 +28,11 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #FFF;
 }
+
+tr:nth-child(even) > a {
+    background-color: #CFF;
+}
+
+tr:nth-child(odd) > a {
+    background-color: #FFF;
+}
