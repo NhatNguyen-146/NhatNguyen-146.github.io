@@ -85,6 +85,10 @@ main {
     text-align: center;
 }
 
+.grid_Item figcaption {
+    font-family: "Raleway", sans-serif;
+}
+
 .grid_Item img {
     width: 100%;
     height: auto;
