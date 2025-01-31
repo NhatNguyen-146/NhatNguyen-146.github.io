@@ -21,8 +21,17 @@
     font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a {
+    text-transform: uppercase;
 }
 
 /* Raleway (regular text) */
@@ -80,28 +89,28 @@ nav {
     padding: 0;
 }
 
-nav > ul {
+nav>ul {
     list-style: none;
     display: flex;
     margin-right: 100px;
     padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
     display: inline;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 8px;
     margin: 0px 5px;
-    transition: background-color 0.5s ease; 
+    transition: background-color 0.5s ease;
     text-align: center;
 }
 
-nav > ul > li:hover {
+nav>ul>li:hover {
     background-color: #FF9E3E;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
     background: transparent;
     color: #000000;
     text-decoration: none;
@@ -109,12 +118,12 @@ nav > ul > li > a {
     font-size: 1rem;
 }
 
-nav > ul > .contact {
+nav>ul>.contact {
     background-color: var #86CAFF;
 }
 
-nav > ul > .contact:hover {
-    background-color:  #FF9E3E;  
+nav>ul>.contact:hover {
+    background-color: #FF9E3E;
     opacity: 0.8;
 }
 
@@ -129,45 +138,45 @@ footer {
     padding: 0;
 }
 
-footer > p {
-    color:  #FFFFFF;
+footer>p {
+    color: #FFFFFF;
     flex: 1;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
 }
 
-footer > ul {
+footer>ul {
     list-style: none;
     display: flex;
     margin-right: 100px;
     padding: 0;
 }
 
-footer > ul > li {
+footer>ul>li {
     display: inline;
     background-color: transparent;
     padding: 0px 50px;
 }
 
-footer > ul > li > a {
-   color:  #FFFFFF;
-   background: transparent;
-   text-decoration: none;
-   font-family: "Raleway", sans-serif;
-   font-size: 1rem;
+footer>ul>li>a {
+    color: #FFFFFF;
+    background: transparent;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
 }
 
-.currentpage_Button{
+.currentpage_Button {
     background-color: #55FD90;
-    transition: background-color 0.5s ease; 
+    transition: background-color 0.5s ease;
 }
 
 .currentpage_Button:hover {
     background-color: #FF9E3E;
 }
 
-.currentpage_Button > a {
+.currentpage_Button>a {
     text-decoration: none;
     background: transparent;
     color: #000000;
