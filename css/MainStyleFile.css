@@ -174,7 +174,7 @@ footer > ul > li > a {
    background-color: #FF9E3E;
 }
 
-.redirect_button > a {
+.redirect_button a {
     background: transparent;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
