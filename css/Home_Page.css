@@ -87,7 +87,7 @@ main {
     background-color: #C8C8C8;
     border-radius: 10px;
     overflow: hidden;
-    flex-direction: column;
+    width: 100%;
 }
 
 /* image section */
@@ -97,16 +97,16 @@ main {
 }
 
 .grid_Container img {
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
 /* text section */
 .grid_Container .text_section {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
+    flex: 2;
+    padding: 20px;
+    text-align: left;
 }
 
 .grid_Container figure {
@@ -127,16 +127,4 @@ main {
 .grid_Container p {
     text-align: center;
     font-size: 1rem;
-}
-
-.grid_Container .redirect_button a {
-    text-decoration: none;
-    background: transparent;
-    color: #55FD90;
-    padding: 10px;
-    display: inline-block;
-}
-
-.grid_Container .redirect_button a:hover {
-    background-color: #FF9E3E;
 }
