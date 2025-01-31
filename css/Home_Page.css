@@ -51,7 +51,7 @@
 
 }
 
-#Aside_Homepage {
+.Aside_Homepage {
     width: 30%;
     padding: 10px;
     height: 100%;
@@ -60,7 +60,7 @@
     justify-content: space-between;
 }
 
-#Aside_Homepage img {
+.Aside_Homepage img {
     width: 50%;
     height: auto;
     margin-bottom: 10px;
