@@ -130,10 +130,10 @@
     font-family: "Raleway", sans-serif;
 }
 
-.grid_Containert button {
+.grid_Container button {
     text-align: center;
     font-size: 1rem;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif; 
     background-color: #55FD90;
     position: absolute;
     padding: 10px;
@@ -144,11 +144,11 @@
     border-radius: 10px;
 }
 
-.grid_Containert button:hover {
+.grid_Container button:hover {
     background-color: #FF9E3E;
 }
 
-.grid_Containert a {
+.grid_Container a {
     text-decoration: none;
     background: transparent;
     color: #000000;
