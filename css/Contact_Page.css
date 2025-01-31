@@ -4,21 +4,25 @@
     padding: 0;
 }
 
-#form_container{
-    border-style: double;
-    border-width: 5px;
-    border-color: #000000;
+.form_container{
+   background-color: #C8C8C8;
 }
 
 #form_decorImage{
     float: left;
     overflow: hidden;
-    width: 50%;
+    width: 45%;
+    height: auto;
+    margin: 5%;
 }
 
 #form_questionForm{
     float: right;
     width: 50%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #000000;
+    margin: 5%;
 }
 
 tr:nth-child(even) {
