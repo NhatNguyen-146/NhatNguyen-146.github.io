@@ -170,4 +170,12 @@ footer > ul > li > a {
 
 .redirect_button :hover{
    opacity: 0.8;
+   background-color: #FF9E3E;
 }
+
+.redirect_button > a {
+    background: transparent;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+ }
