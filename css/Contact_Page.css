@@ -1,4 +1,4 @@
-*{
+* {
     border: 0;
     margin: 0;
     padding: 0;
@@ -7,8 +7,7 @@
 .form_container {
     overflow: hidden;
     width: 100%;
-    margin: 5%;
-    background-color: aqua;
+    margin: 5% 0 5% 5%;
 }
 
 #form_decorImage {
@@ -20,20 +19,26 @@
 
 .form_questionForm {
     float: left;
-    width: 45%;
+    width: 40%;
     height: 100%;
     border-style: double;
     border-width: 5px;
     border-color: #000000;
     padding: 20px;
-    background-color: #C8C8C8;;
+    background-color: #C8C8C8;
+
 }
 
-.form_content{
+#imporant_info {
+    text-align: center;
+}
+
+.form_content {
     border-style: double;
     border-color: #000000;
     border-width: 5px;
 }
+
 tr:nth-child(even) {
     background-color: #CFF;
 }
@@ -42,11 +47,11 @@ tr:nth-child(odd) {
     background-color: #FFF;
 }
 
-tr:nth-child(even) > a {
+tr:nth-child(even)>a {
     background-color: #CFF;
 }
 
-tr:nth-child(odd) > a {
+tr:nth-child(odd)>a {
     background-color: #FFF;
 }
 
@@ -61,25 +66,26 @@ article form table td {
 
 article form label {
     font-size: 1rem;
-   font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 article form select,
 article form input {
-    color:  #000000;
+    color: #000000;
     padding: 5px;
-    margin: 5px 0;  
-    width: 90%;  
+    margin: 5px 0;
+    width: 90%;
+    background-color: transparent;
 }
 
 article form textarea#message {
     width: 90%;
     height: auto;
-    color:  #000000;
+    color: #000000;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px 0;    
-    font-family: "Raleway", sans-serif;;
+    margin: 10px 0;
+    font-family: "Raleway", sans-serif;
 }
 
 h2 {
@@ -87,4 +93,22 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 3rem;
+}
+
+#submit {
+    background-color: #55FD90;
+    transition: background-color 0.5s ease;
+    float: right;
+    width: 20%;
+    height: auto;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 1%;
+    margin: 1%;
+}
+
+#submit:hover {
+    background-color: #FF9E3E;
 }
