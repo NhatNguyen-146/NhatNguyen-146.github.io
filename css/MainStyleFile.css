@@ -96,3 +96,17 @@ nav > ul > li {
     text-align: center;
 }
 
+nav > ul > li:hover {
+    background-color: #FF9E3E;
+    opacity: 0.8;
+    
+}
+
+nav > ul > .contact {
+    background-color: var #86CAFF;
+}
+
+nav > ul > .contact:hover {
+    background-color:  #FF9E3E;  
+    opacity: 0.8;
+}
